@@ -1,0 +1,22 @@
+<Alloy>
+	<Window width='Ti.UI.FILL' height='Ti.UI.FILL' top='0dp' backgroundImage='app_background.jpg'>
+		<!-- VUE GENERALE -->
+		<View id='main' left='0dp' top='0dp' layout='vertical'>
+			<!-- VUE HEADER ROUGE -->
+			<View top='0dp' width='Ti.UI.SIZE' height='Ti.UI.SIZE'>
+				<ImageView image='app_header.png'/>
+			</View>
+			<View id='view_playerbar' top='0dp' backgroundColor='#50000000' height='10dp' width='50' left='0dp'></View>
+			
+			<!-- VUE SELECTION DU FICHIER SON -->
+			<View id='view_select' height='Ti.UI.SIZE' top='0dp'/>
+			<!-- VUE MANAGEMENT DE L'ENREGISTREMENT-->
+			<View id='view_record' top='0dp'/>
+			<!-- VUE LISTE DES ENREGISTREMENTS -->
+			<View id='view_record_list' top='0dp'/>	
+		</View>	
+		
+		<View id='intro' top='0dp' width='Ti.UI.FILL' height='Ti.UI.FILL' backgroundImage='index.png'/>
+	
+	</Window>
+</Alloy>

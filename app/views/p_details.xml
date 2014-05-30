@@ -1,0 +1,38 @@
+<Alloy>
+	<Window id='win' width='Ti.UI.FILL' height='Ti.UI.FILL' top='0dp' backgroundImage='app_background_details.jpg'>
+		<!-- VUE GENERALE -->
+		<View id='main' left='0dp' top='0dp' layout='vertical'>
+			<!-- VUE HEADER ROUGE -->
+			<View top='0dp' backgroundColor='#80000000' height='50dp'>
+				<Button backgroundColor='#80000000' textAlign='Ti.UI.TEXT_ALIGNMENT_CENTER' id='v_back' left='0dp' height='50dp' width='70dp' class='txt_button' image='app_icon_close.png' backgroundImage='' backgroundDisableImage=''/>
+				<Button backgroundColor='#a40228' textAlign='Ti.UI.TEXT_ALIGNMENT_CENTER' id='v_delete' right='0dp' height='50dp' width='70dp' class='txt_label' image='app_icon_delete.png' backgroundImage='' backgroundDisableImage=''/>
+				<Button backgroundColor='#30000000' textAlign='Ti.UI.TEXT_ALIGNMENT_CENTER' id='v_share' height='50dp' width='180dp' class='txt_label' image='app_icon_email.png' backgroundImage='' backgroundDisableImage=''/>
+			</View>
+			<View backgroundColor='#50000000' height='30dp' top='0dp'>
+				<Label left='20dp' width='100dp' class='txt_label'>Titre :</Label>
+				<TextField left='110dp' right='20dp' id='r_title' class='txt_value'/>	
+			</View>
+			<View backgroundColor='#00000000' height='30dp' top='5dp'>
+				<Label left='20dp' width='100dp' class='txt_label'>Date :</Label>
+				<Label left='110dp' right='20dp' id='r_date' class='txt_value'/>	
+			</View>
+			<View backgroundColor='#00000000' height='30dp' >
+				<Label left='20dp' width='100dp' class='txt_label'>Nom du fichier :</Label>
+				<Label left='110dp' right='20dp' id='r_source' class='txt_value'/>	
+			</View>
+			<View backgroundColor='#00000000' height='30dp'>
+				<Label left='20dp' width='100dp' class='txt_label'>Source MP3 :</Label>
+				<Label left='110dp' right='20dp' id='r_source_mp3' class='txt_value'/>	
+			</View>
+			<View backgroundColor='#50000000' height='40dp' top='5dp'>
+				<Label left='20dp' width='200dp' class='txt_label'>Lire le fichier MP3 avec l'enregistrement</Label>
+				<Switch value='true' width='10dp' titleOff='O' titleOn='I' color='black' right='20dp' id='switch_hf'/>	
+			</View>
+			<View backgroundColor='#50000000' height='Ti.UI.SIZE' top='5dp' bottom='5dp'>
+				<Label left='20dp' top='10dp' width='100dp' class='txt_label'>Note :</Label>
+				<TextArea backgroundColor='transparent' top='20dp' left='12dp' right='10dp' id='r_note' height='Ti.UI.SIZE' color='#eee' class='txt_value'/>	
+			</View>
+			
+		</View>	
+	</Window>
+</Alloy>

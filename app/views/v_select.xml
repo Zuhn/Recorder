@@ -1,0 +1,8 @@
+<Alloy>
+	<View id='view' height='Ti.UI.SIZE' class="container" layout='vertical'>
+		<View id='row_selected' height='Ti.UI.SIZE' top='0dp'>
+			<Button id='bt_config' top='17dp' backgroundDisabledImage='app_icon_config.png' backgroundImage='app_icon_config.png' width='28dp' height='29dp' right='20dp'>
+		</View>
+		<View id='view_separator' top='0dp' height='Ti.UI.SIZE'/>
+	</View>
+</Alloy>

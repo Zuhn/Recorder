@@ -1,0 +1,32 @@
+<Alloy>
+	<Window id='win' width='Ti.UI.FILL' height='Ti.UI.FILL' top='0dp' backgroundImage='app_background.jpg'>
+		
+		<!-- VUE GENERALE -->
+		<View id='main' left='0dp' top='0dp' layout='vertical'>
+			<!-- VUE HEADER ROUGE -->
+			<View top='0dp' backgroundColor='#80000000' height='50dp'>
+				<Button backgroundColor='#80000000' textAlign='Ti.UI.TEXT_ALIGNMENT_CENTER' backgroundImage='' backgroundDisableImage='' id='v_back' left='0dp' height='50dp' width='70dp' class='txt_button' image='app_icon_close.png'></Button>
+				<Label backgroundColor='transparent' id='v_share' right='20dp' height='50dp' width='Ti.UI.SIZE' class='txt_button'>CONFIGURATION</Label>
+			</View>
+			<View backgroundColor='#50000000' height='40dp' top='0dp'>
+				<Label id='t_hf' left='20dp' width='200dp' class='txt_label'>Enregistrement Haute Fidélité :</Label>
+				<Switch value='false' width='10dp' titleOff='O' titleOn='I' color='black' right='20dp' id='switch_hf'/>	
+			</View>
+			<View backgroundColor='#50000000' height='Ti.UI.SIZE' top='5dp'>
+				<Label id='t_email' left='20dp' width='100dp' class='txt_label'>Email par défaut :</Label>
+				<TextArea backgroundColor='transparent' left='110dp' right='20dp' id='txt_email' textAlign='Ti.UI.TEXT_ALIGNMENT_RIGHT' height='Ti.UI.SIZE' color='#eee' class='txt_value'/>	
+			</View>
+			<View backgroundColor='#50000000' height='40dp' top='5dp'>
+				<Label id='t_email_notes' left='20dp' width='200dp' class='txt_label'>Ajouter les notes à l'email :</Label>
+				<Switch value='false' width='10dp' titleOff='O' titleOn='I' color='black' right='20dp' id='switch_1'/>	
+			</View>
+			<View backgroundColor='#50000000' height='40dp' top='1dp'>
+				<Label id='t_df' left='20dp' width='200dp' class='txt_label'>Ajouter les détails du fichier à l'email :</Label>
+				<Switch value='false' width='10dp' titleOff='O' titleOn='I' color='black' right='20dp' id='switch_2'/>	
+			</View>
+			
+			
+		</View>	
+		
+	</Window>
+</Alloy>

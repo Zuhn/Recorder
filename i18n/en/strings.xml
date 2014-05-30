@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="welcome">Hello</string>
+  <string name="format_test">My name is %s</string>
+  <!-- LIBRAIRY -->
+  <string name="ouvrir_librairie">OPEN LIBRAIRY</string>
+  <string name="fermer_librairie">CLOSE LIBRAIRY</string>
+  <string name="fichier_mp3">mp3 file</string>
+  <string name="url_mp3">mp3 url</string>
+  
+  <string name="enregistrer">RECORD</string>
+  <string name="aucun_mp3_select">SELECT A MP3 FILE</string>
+  <string name="source_enregistrement">RECORDING WITH MP3</string>
+  <string name="no_source_enregistrement">RECORDED WITHOUT MP3</string>
+  <string name="nom_enregistrement">Recording</string>
+  <string name="aucune_note">Enter a text</string>
+  <string name="aucun">None</string>
+  <string name="titre_config">SETTINGS</string>
+  <string name="titre_hf">High Fidelity Mode</string>
+  <string name="titre_email">Default email</string>
+  <string name="titre_email_notes">Send email with notes</string>
+  <string name="titre_details_fichier">Send details with file details</string>
+</resources>

@@ -1,0 +1,21 @@
+".container": {
+	backgroundColor: "white"
+}
+
+".txt_value":{
+	font:{ fontSize:'10dp', fontFamily:'Frutiger LT Std', fontStyle:'bold' },
+	color:'#80ffffff',
+	
+}
+
+".txt_label":{
+	font:{ fontSize:'10dp', fontFamily:'Frutiger LT Std', fontStyle:'bold' },
+	color:'#ddd',
+	
+}
+
+".txt_button":{
+	font:{ fontSize:'16dp', fontFamily:'Frutiger LT Std', fontStyle:'bold' },
+	color:'#ddd',
+	
+}

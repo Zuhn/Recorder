@@ -1,0 +1,9 @@
+".container": {
+	backgroundColor: "white"
+}
+
+"TableViewRow":{
+	font:{ fontSize:'10dp', fontFamily:'Frutiger LT Std', fontStyle:'bold' },
+	color:'#fff',
+	
+}

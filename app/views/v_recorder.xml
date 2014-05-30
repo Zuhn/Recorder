@@ -1,0 +1,14 @@
+<Alloy>
+	<Collection src="saved_recordings" />
+	<View layout='vertical' top='0dp'>
+		<View id='v_voice' left='0dp' height='10dp' width='0dp'>
+			<View height='10dp' opacity="0.5" backgroundImage='app_volume_color.jpg' width='350dp' left='0dp'/>
+		</View>
+			
+		<View id='index' top='0dp' height='Ti.UI.SIZE'/>
+		<View id='view_separator' top='0dp' height='10dp' backgroundImage='app_separator.png'/>
+		<TableView id='tbl' top='0dp' separatorColor='#50ffffff' dataCollection="saved_recordings" height ='Ti.UI.FILL' backgroundColor='transparent' dataTransform="transformFunction">
+			<TableViewRow leftImage='app_icon_record_list.png' rightImage='app_icon_record_list_right.png' selectedBackgroundColor='#a40228' num="{num}" title="{title}" source_mp3='{source_mp3}' enable_mp3='{enable_mp3}' source='{source}' note='{note}' date='{date}' backgroundColor='#50000000'/>
+        </TableView>
+	</View>
+</Alloy>

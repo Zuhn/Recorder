@@ -1,0 +1,9 @@
+<Alloy>
+	<Collection src="download_file" />
+	<Window id='win' height='Ti.UI.FILL' width='Ti.UI.FILL' class="container" layout='vertical'>
+		<View id='index' top='0dp' height='Ti.UI.SIZE' width='Ti.UI.FILL'/>
+		<TableView id='tbl'  separatorColor='#50ffffff' dataCollection="download_file" height ='Ti.UI.FILL' backgroundColor='transparent' dataTransform="transformFunction">
+			<TableViewRow leftImage='app_icon_download_list.png' rightImage='app_icon_record_list_right.png' selectedBackgroundColor='#a40228' title="{title}" mp3="{path}" backgroundColor='#50000000'/>
+        </TableView>
+	</Window>
+</Alloy>
